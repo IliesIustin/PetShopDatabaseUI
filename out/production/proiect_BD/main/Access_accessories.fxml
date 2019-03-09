@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="450.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AccessoryController">
+   <children>
+      <AnchorPane fx:id="rootPane" layoutX="20.0" layoutY="40.0" prefHeight="490.0" prefWidth="720.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button layoutX="8.0" layoutY="15.0" mnemonicParsing="false" onAction="#viewAccessories" prefHeight="25.0" prefWidth="97.0" text="Arata accesorii" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="598.0" />
+            <TableView fx:id="table" blendMode="DARKEN" cache="true" layoutX="107.0" layoutY="15.0" prefHeight="420.0" prefWidth="562.0" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="107.0" AnchorPane.rightAnchor="31.0" AnchorPane.topAnchor="15.0">
+               <columns>
+                  <TableColumn fx:id="name_c" prefWidth="126.0" text="Nume" />
+                  <TableColumn fx:id="accessory_code_c" prefWidth="138.0" text="Cod Accesoriu" />
+                  <TableColumn fx:id="maker_c" prefWidth="135.0" text="Producator" />
+                  <TableColumn fx:id="price_c" minWidth="0.0" prefWidth="92.0" text="Pret" />
+                  <TableColumn fx:id="stock_c" prefWidth="70.0" text="Stoc" />
+               </columns>
+            </TableView>
+            <Button layoutX="17.0" layoutY="48.0" mnemonicParsing="false" onAction="#insertAccessory" prefHeight="47.0" prefWidth="73.0" text="Adauga &#10;accesorii" />
+            <Button layoutX="18.0" layoutY="103.0" mnemonicParsing="false" onAction="#updateDeleteAccessory" prefHeight="47.0" prefWidth="73.0" text="Sterge si&#10;modifica" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

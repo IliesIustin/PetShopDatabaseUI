@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="509.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SimpleQuery2Controller">
+   <children>
+      <AnchorPane fx:id="rootPane" prefHeight="477.0" prefWidth="736.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-36.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TableView fx:id="table2" blendMode="DARKEN" cache="true" layoutX="14.0" layoutY="204.0" prefHeight="136.0" prefWidth="402.0">
+               <columns>
+                  <TableColumn fx:id="last_name_c2" prefWidth="211.0" text="Nume" />
+                  <TableColumn fx:id="first_name_c2" prefWidth="190.0" text="Prenume" />
+               </columns>
+            </TableView>
+            <TableView fx:id="table1" blendMode="DARKEN" cache="true" layoutX="14.0" layoutY="54.0" prefHeight="136.0" prefWidth="402.0">
+               <columns>
+                  <TableColumn fx:id="name_c1" prefWidth="134.0" text="Nume" />
+                  <TableColumn fx:id="breed_c1" prefWidth="151.0" text="Rasa" />
+                  <TableColumn fx:id="pet_code_c1" prefWidth="116.0" text="Cod animal" />
+               </columns>
+            </TableView>
+            <Label layoutX="343.0" layoutY="14.0" text="Interogari simple">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="563.0" layoutY="165.0" mnemonicParsing="false" onAction="#execQuery4" text="Rezultat" />
+            <Label layoutX="530.0" layoutY="63.0" prefHeight="17.0" prefWidth="125.0" text="cumparate de clientul" />
+            <ComboBox fx:id="cb_animal_name1" layoutX="440.0" layoutY="58.0" prefHeight="27.0" prefWidth="84.0" promptText="Animal" />
+            <ComboBox fx:id="cb_client" layoutX="648.0" layoutY="58.0" prefHeight="27.0" prefWidth="84.0" promptText="Nume " />
+            <Button layoutX="564.0" layoutY="305.0" mnemonicParsing="false" onAction="#execQuery5" text="Rezultat" />
+            <Label layoutX="440.0" layoutY="204.0" text="Numele si prenumele clientilor care au cumparat cel putin un: " />
+            <ComboBox fx:id="cb_animal_name2" layoutX="482.0" layoutY="221.0" prefHeight="27.0" prefWidth="84.0" promptText="Animal" />
+            <ComboBox fx:id="cb_breed" layoutX="618.0" layoutY="221.0" prefHeight="27.0" prefWidth="84.0" promptText="Rasa" />
+            <Button layoutX="563.0" layoutY="459.0" mnemonicParsing="false" onAction="#execQuery6" text="Rezultat" />
+            <RadioButton fx:id="rb_M" layoutX="698.0" layoutY="346.0" mnemonicParsing="false" prefHeight="17.0" prefWidth="29.0" text="M">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="rb_F" layoutX="730.0" layoutY="348.0" mnemonicParsing="false" text="F">
+               <font>
+                  <Font size="9.0" />
+               </font>
+            </RadioButton>
+            <Label layoutX="434.0" layoutY="346.0" prefHeight="17.0" prefWidth="263.0" text="Numele, rasa, codul si numarul de animale de sex" />
+            <ComboBox fx:id="cb_month" layoutX="534.0" layoutY="363.0" prefHeight="27.0" prefWidth="82.0" promptText="Luna" />
+            <ComboBox fx:id="cb_year" layoutX="660.0" layoutY="363.0" prefHeight="27.0" prefWidth="84.0" promptText="Anul" />
+            <Label layoutX="448.0" layoutY="368.0" text="vandute in luna" />
+            <Label layoutX="622.0" layoutY="368.0" text="si anul" />
+            <TableView fx:id="table3" blendMode="DARKEN" cache="true" layoutX="14.0" layoutY="348.0" prefHeight="136.0" prefWidth="402.0">
+               <columns>
+                  <TableColumn fx:id="name_c3" prefWidth="101.0" text="Nume" />
+                  <TableColumn fx:id="breed_c3" prefWidth="106.0" text="Rasa" />
+                  <TableColumn fx:id="pet_code_c3" prefWidth="99.0" text="Cod animal" />
+                  <TableColumn fx:id="number_c3" prefWidth="95.0" text="Numar animale" />
+               </columns>
+            </TableView>
+            <Button layoutX="545.0" layoutY="272.0" mnemonicParsing="false" onAction="#setPet" text="Seteaza animal" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

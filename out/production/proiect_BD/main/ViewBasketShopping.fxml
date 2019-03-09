@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.BasketController">
+   <children>
+      <TableView fx:id="table1" layoutX="170.0" layoutY="50.0" prefHeight="200.0" prefWidth="400.0">
+        <columns>
+          <TableColumn fx:id="pet_name_c" prefWidth="81.0" text="Nume animal" />
+          <TableColumn fx:id="breed_c" prefWidth="69.0" text="Rasa" />
+            <TableColumn fx:id="pet_code_c" prefWidth="79.0" text="Cod animal" />
+            <TableColumn fx:id="pet_number_c" prefWidth="92.0" text="Numar animale" />
+            <TableColumn fx:id="pet_price_c" prefWidth="77.0" text="Pret animale" />
+        </columns>
+      </TableView>
+      <TableView fx:id="table2" layoutX="170.0" layoutY="286.0" prefHeight="200.0" prefWidth="400.0">
+        <columns>
+          <TableColumn fx:id="accessory_name_c" prefWidth="111.0" text="Nume accesoriu" />
+          <TableColumn fx:id="accessory_code_c" prefWidth="107.0" text="Cod accesoriu" />
+            <TableColumn fx:id="accessory_number_c" prefWidth="97.0" text="Numar accesorii" />
+            <TableColumn fx:id="accessory_price_c" prefWidth="82.0" text="Pret Accesorii" />
+        </columns>
+      </TableView>
+      <Label layoutX="227.0" layoutY="14.0" text="Cos de cumparaturi">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Button layoutX="14.0" layoutY="50.0" mnemonicParsing="false" onAction="#viewPetBasket" prefHeight="42.0" prefWidth="128.0" text="        Animale in &#10;cosul de cumparaturi" />
+      <Button layoutX="14.0" layoutY="286.0" mnemonicParsing="false" onAction="#viewAccessoryBasket" text="       Accesorii in &#10;cosul de cumparaturi" />
+      <Button fx:id="closeButton" layoutX="23.0" layoutY="461.0" mnemonicParsing="false" onAction="#close" text="Inchide" />
+      <TextField fx:id="pet_code_txt" layoutX="13.0" layoutY="125.0" prefHeight="25.0" prefWidth="128.0" />
+      <Label layoutX="14.0" layoutY="108.0" text="Cod animal:" />
+      <Button layoutX="30.0" layoutY="165.0" mnemonicParsing="false" onAction="#remove_pet_basket" text="Elimina din cos" />
+      <Label layoutX="14.0" layoutY="344.0" text="Cod accesoriu:" />
+      <TextField fx:id="accessory_code_txt" layoutX="13.0" layoutY="361.0" prefHeight="25.0" prefWidth="128.0" />
+      <Button layoutX="30.0" layoutY="399.0" mnemonicParsing="false" onAction="#remove_accessory_basket" text="Elimina din cos" />
+   </children>
+</AnchorPane>

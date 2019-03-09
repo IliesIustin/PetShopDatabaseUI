@@ -1,0 +1,13 @@
+insert into pet_shop.facturi (id_factura, id_vanzare_animal, id_vanzare_accesorii, id_client, data_vanzare, numar_aviz, total) values (4653, null, 6889, 1071, '2018-12-07', 987128, 75);
+insert into pet_shop.facturi (id_factura, id_vanzare_animal, id_vanzare_accesorii, id_client, data_vanzare, numar_aviz, total) values (4789, 1378, 1742, 2425, '2018-12-05', 981241, 175);
+insert into pet_shop.facturi (id_factura, id_vanzare_animal, id_vanzare_accesorii, id_client, data_vanzare, numar_aviz, total) values (5576, 6229, null, 1907, '2018-11-07', 984612, 130);
+insert into pet_shop.facturi (id_factura, id_vanzare_animal, id_vanzare_accesorii, id_client, data_vanzare, numar_aviz, total) values (6365, 8537, 5360, 1071, '2018-12-04', 986312, 158);
+insert into pet_shop.facturi (id_factura, id_vanzare_animal, id_vanzare_accesorii, id_client, data_vanzare, numar_aviz, total) values (7711, 4275, 1143, 1103, '2018-12-13', 989213, 280);
+insert into pet_shop.facturi (id_factura, id_vanzare_animal, id_vanzare_accesorii, id_client, data_vanzare, numar_aviz, total) values (8269, 1188, null, 2425, '2018-12-20', 981443, 395);
+insert into pet_shop.facturi (id_factura, id_vanzare_animal, id_vanzare_accesorii, id_client, data_vanzare, numar_aviz, total) values (8612, 1371, null, 7595, '2018-11-11', 983242, 255);
+insert into pet_shop.facturi (id_factura, id_vanzare_animal, id_vanzare_accesorii, id_client, data_vanzare, numar_aviz, total) values (9362, 6693, null, 1103, '2018-11-22', 987238, 260);
+insert into pet_shop.facturi (id_factura, id_vanzare_animal, id_vanzare_accesorii, id_client, data_vanzare, numar_aviz, total) values (13028, 10674, 11095, 1103, '2018-12-28', 985883, 145);
+insert into pet_shop.facturi (id_factura, id_vanzare_animal, id_vanzare_accesorii, id_client, data_vanzare, numar_aviz, total) values (13098, 10865, 11194, 7595, '2018-12-27', 989198, 240);
+insert into pet_shop.facturi (id_factura, id_vanzare_animal, id_vanzare_accesorii, id_client, data_vanzare, numar_aviz, total) values (13413, null, 11119, 1907, '2018-12-27', 983986, 75);
+insert into pet_shop.facturi (id_factura, id_vanzare_animal, id_vanzare_accesorii, id_client, data_vanzare, numar_aviz, total) values (13697, 10799, null, 1907, '2019-01-05', 982116, 460);
+insert into pet_shop.facturi (id_factura, id_vanzare_animal, id_vanzare_accesorii, id_client, data_vanzare, numar_aviz, total) values (13919, null, 11279, 2425, '2018-12-28', 989832, 264);

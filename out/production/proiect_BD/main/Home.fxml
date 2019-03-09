@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane fx:id="gridPane" alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.HomeController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="550.0" prefWidth="800.0" styleClass="bodybg" stylesheets="@style.css">
+         <children>
+            <VBox prefHeight="525.0" prefWidth="800.0">
+               <children>
+                  <MenuBar prefHeight="25.0" prefWidth="600.0">
+                    <menus>
+                      <Menu mnemonicParsing="false" text="Produsele noastre">
+                        <items>
+                              <MenuItem mnemonicParsing="false" onAction="#goHome" text="Pagina principala" />
+                          <MenuItem mnemonicParsing="false" onAction="#gotoPets" text="Animale" />
+                              <MenuItem mnemonicParsing="false" onAction="#gotoAccessories" text="Accesorii" />
+                        </items>
+                      </Menu>
+                        <Menu mnemonicParsing="false" text="Interogari simple">
+                          <items>
+                            <MenuItem mnemonicParsing="false" onAction="#gotoSimpleQuery1" text="Primele 3 interogari simple" />
+                              <MenuItem mnemonicParsing="false" onAction="#gotoSimpleQuery2" text="Ultimele 3 interogari simple" />
+                          </items>
+                        </Menu>
+                        <Menu mnemonicParsing="false" text="Interogari complexe">
+                          <items>
+                            <MenuItem mnemonicParsing="false" onAction="#gotoComplexQuery" text="4 interogari complexe" />
+                          </items>
+                        </Menu>
+                      <Menu mnemonicParsing="false" text="Informatii utile">
+                        <items>
+                          <MenuItem mnemonicParsing="false" onAction="#informationAlert" text="Despre noi" />
+                        </items>
+                      </Menu>
+                      <Menu mnemonicParsing="false" text="Iesire">
+                        <items>
+                          <MenuItem mnemonicParsing="false" onAction="#Quit" text="Delogare" />
+                        </items>
+                      </Menu>
+                    </menus>
+                  </MenuBar>
+                  <AnchorPane fx:id="rootPane" prefHeight="373.0" prefWidth="600.0">
+                     <children>
+                        <Label layoutX="344.0" layoutY="14.0" text="Facturi emise">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Label>
+                        <Button layoutX="357.0" layoutY="422.0" mnemonicParsing="false" onAction="#makeBill" text="Emite factura" />
+                        <TableView fx:id="table" blendMode="DARKEN" layoutX="127.0" layoutY="73.0" prefHeight="300.0" prefWidth="650.0">
+                          <columns>
+                            <TableColumn fx:id="client_last_name_c" prefWidth="119.0" text="Nume client " />
+                            <TableColumn fx:id="client_first_name_c" prefWidth="123.0" text="Prenume client" />
+                              <TableColumn fx:id="bill_number_c" prefWidth="149.0" text="Aviz factura " />
+                              <TableColumn fx:id="sale_date_c" prefWidth="138.0" text="Data vanzare" />
+                              <TableColumn fx:id="total_c" prefWidth="118.0" text="Total" />
+                          </columns>
+                        </TableView>
+                        <Button layoutX="29.0" layoutY="73.0" mnemonicParsing="false" onAction="#viewBills" text="Vezi facturi" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

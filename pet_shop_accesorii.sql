@@ -1,0 +1,12 @@
+insert into pet_shop.accesorii (id_accesoriu, nume, cod_accesoriu, producator, pret, stoc) values (994, 'Cusca rozatoare', 'CR-142453', 'Pet-for-love', 89, 2);
+insert into pet_shop.accesorii (id_accesoriu, nume, cod_accesoriu, producator, pret, stoc) values (2244, 'Cusca papagali', 'CP-592460', 'Abc-zoo', 75, 21);
+insert into pet_shop.accesorii (id_accesoriu, nume, cod_accesoriu, producator, pret, stoc) values (2858, 'Pat rozatoare', 'PR-850033', 'Abc-zoo', 134, 3);
+insert into pet_shop.accesorii (id_accesoriu, nume, cod_accesoriu, producator, pret, stoc) values (3303, 'Adapator pentru soareci', 'AS-689301', 'Pet-for-love', 44, 3);
+insert into pet_shop.accesorii (id_accesoriu, nume, cod_accesoriu, producator, pret, stoc) values (3346, 'Hranitor pentru pasari', 'HP-582901', 'Abc-zoo', 16, 6);
+insert into pet_shop.accesorii (id_accesoriu, nume, cod_accesoriu, producator, pret, stoc) values (3730, 'Casuta papagali', 'CP-250917', 'Love them', 88, 4);
+insert into pet_shop.accesorii (id_accesoriu, nume, cod_accesoriu, producator, pret, stoc) values (4492, 'Casuta rozatoare', 'CR-592045', 'Pet-for-love', 120, 9);
+insert into pet_shop.accesorii (id_accesoriu, nume, cod_accesoriu, producator, pret, stoc) values (6393, 'Castron pentru hamster', 'CH-409186', 'Love them', 23, 10);
+insert into pet_shop.accesorii (id_accesoriu, nume, cod_accesoriu, producator, pret, stoc) values (7154, 'Acvariu', 'AC-592880', 'Love them', 144, 2);
+insert into pet_shop.accesorii (id_accesoriu, nume, cod_accesoriu, producator, pret, stoc) values (7933, 'Perie pentru rozator', 'PR-899251', 'Tom''s pet', 15, 7);
+insert into pet_shop.accesorii (id_accesoriu, nume, cod_accesoriu, producator, pret, stoc) values (8208, 'Stinghie cu vas', 'SV-489201', 'Pet-for-love', 33, 0);
+insert into pet_shop.accesorii (id_accesoriu, nume, cod_accesoriu, producator, pret, stoc) values (9474, 'Roata pentru alergat rozatoare', 'RR-119482', 'Tom''s pet', 78, 13);

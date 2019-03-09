@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ClientShoppingController">
+   <children>
+      <Label layoutX="27.0" layoutY="124.0" text="Nume:" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="125.0" />
+      <Label layoutX="28.0" layoutY="154.0" prefHeight="17.0" prefWidth="43.0" text="Rasa:" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="155.0" />
+      <Label layoutX="13.0" layoutY="184.0" prefHeight="17.0" prefWidth="73.0" text="Specie:" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="185.0" />
+      <Label alignment="BOTTOM_LEFT" layoutX="36.0" layoutY="214.0" prefHeight="17.0" prefWidth="35.0" text="Sex:" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="215.0" />
+      <Label layoutX="33.0" layoutY="244.0" text="Varsta:" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="245.0" />
+      <Label layoutX="32.0" layoutY="274.0" prefHeight="17.0" prefWidth="51.0" text="Ani viata:" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="275.0" />
+      <TextField fx:id="txt_pet_name" layoutX="75.0" layoutY="143.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="360.0" AnchorPane.topAnchor="120.0" />
+      <TextField fx:id="txt_breed" layoutX="87.0" layoutY="172.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="360.0" AnchorPane.topAnchor="150.0" />
+      <TextField fx:id="txt_breed_name" layoutX="93.0" layoutY="201.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="360.0" AnchorPane.topAnchor="180.0" />
+      <TextField fx:id="txt_sex" layoutX="87.0" layoutY="228.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="360.0" AnchorPane.topAnchor="210.0" />
+      <TextField fx:id="txt_age" layoutX="87.0" layoutY="260.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="360.0" AnchorPane.topAnchor="240.0" />
+      <TextField fx:id="txt_life" layoutX="87.0" layoutY="302.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="360.0" AnchorPane.topAnchor="270.0" />
+      <Label layoutX="45.0" layoutY="304.0" text="Pret:" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="305.0" />
+      <TextField fx:id="txt_pet_price" layoutX="75.0" layoutY="340.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="360.0" AnchorPane.topAnchor="300.0" />
+      <Label layoutX="44.0" layoutY="334.0" text="Stoc:" AnchorPane.leftAnchor="30.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="335.0" />
+      <TextField fx:id="txt_pet_stock" layoutX="75.0" layoutY="379.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="360.0" AnchorPane.topAnchor="330.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="-3.0" layoutY="66.0" prefHeight="17.0" prefWidth="89.0" text="Cod animal:" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="510.0" AnchorPane.topAnchor="65.0" />
+      <TextField fx:id="txt_pet_code" layoutX="87.0" layoutY="62.0" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="360.0" />
+      <Button layoutX="82.0" layoutY="97.0" mnemonicParsing="false" onAction="#getPetSale" text="Gaseste animal" AnchorPane.leftAnchor="90.0" AnchorPane.rightAnchor="400.0" AnchorPane.topAnchor="90.0" />
+      <Label layoutX="103.0" layoutY="364.0" text="Numar animale:" />
+      <TextField fx:id="txt_pet_number" layoutX="197.0" layoutY="377.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.rightAnchor="360.0" AnchorPane.topAnchor="360.0" />
+      <Button layoutX="120.0" layoutY="385.0" mnemonicParsing="false" onAction="#sellPet" text="Adauga in cos" AnchorPane.topAnchor="390.0" />
+      <Label layoutX="364.0" layoutY="242.0" text="Nume:" AnchorPane.leftAnchor="355.0" AnchorPane.rightAnchor="180.0" AnchorPane.topAnchor="245.0" />
+      <Label layoutX="357.0" layoutY="274.0" prefHeight="17.0" prefWidth="67.0" text="Producator:" AnchorPane.leftAnchor="355.0" AnchorPane.rightAnchor="180.0" AnchorPane.topAnchor="275.0" />
+      <Label layoutX="364.0" layoutY="302.0" prefHeight="17.0" prefWidth="73.0" text="Pret:" AnchorPane.leftAnchor="355.0" AnchorPane.rightAnchor="180.0" AnchorPane.topAnchor="305.0" />
+      <Label fx:id="accessory_stock" alignment="BOTTOM_LEFT" layoutX="364.0" layoutY="332.0" prefHeight="17.0" prefWidth="35.0" text="Stoc:" AnchorPane.leftAnchor="355.0" AnchorPane.rightAnchor="180.0" AnchorPane.topAnchor="335.0" />
+      <TextField fx:id="txt_accessory_name" layoutX="424.0" layoutY="237.0" AnchorPane.leftAnchor="420.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="240.0" />
+      <TextField fx:id="txt_maker" layoutX="424.0" layoutY="267.0" AnchorPane.leftAnchor="420.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="270.0" />
+      <TextField fx:id="txt_accessory_price" layoutX="424.0" layoutY="297.0" AnchorPane.leftAnchor="420.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="300.0" />
+      <TextField fx:id="txt_accessory_stock" layoutX="424.0" layoutY="327.0" AnchorPane.leftAnchor="420.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="330.0" />
+      <Label alignment="CENTER_RIGHT" layoutX="331.0" layoutY="184.0" prefHeight="17.0" prefWidth="89.0" text="Cod accesoriu:" />
+      <TextField fx:id="txt_accessory_code" layoutX="424.0" layoutY="179.0" AnchorPane.leftAnchor="420.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="180.0" />
+      <Button layoutX="424.0" layoutY="207.0" mnemonicParsing="false" onAction="#getAccessorySale" text="Gaseste accesoriu" />
+      <Label layoutX="435.0" layoutY="361.0" text="Numar accesorii:" AnchorPane.topAnchor="361.0" />
+      <TextField fx:id="txt_accessory_number" layoutX="534.0" layoutY="360.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="360.0" />
+      <Button layoutX="453.0" layoutY="390.0" mnemonicParsing="false" onAction="#sellAccessory" text="Adauga in cos" />
+      <Label layoutX="352.0" layoutY="65.0" text="Nume client:" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="65.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="350.0" layoutY="88.0" text="Prenume client:" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="85.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="352.0" layoutY="108.0" text="Cnp client:" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="105.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="350.0" layoutY="134.0" text="Data nasterii:" AnchorPane.leftAnchor="350.0" AnchorPane.rightAnchor="150.0" AnchorPane.topAnchor="125.0">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="last_name_label" layoutX="470.0" layoutY="65.0" prefHeight="17.0" prefWidth="129.0" text="Label" AnchorPane.leftAnchor="470.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="65.0" />
+      <Label fx:id="first_name_label" layoutX="467.0" layoutY="88.0" prefHeight="17.0" prefWidth="129.0" text="Label" AnchorPane.leftAnchor="470.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="85.0" />
+      <Label fx:id="cnp_label" layoutX="465.0" layoutY="112.0" prefHeight="17.0" prefWidth="129.0" text="Label" AnchorPane.leftAnchor="470.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="105.0" />
+      <Label fx:id="birth_date_label" layoutX="465.0" layoutY="134.0" prefHeight="17.0" prefWidth="129.0" text="Label" AnchorPane.leftAnchor="470.0" AnchorPane.rightAnchor="1.0" AnchorPane.topAnchor="125.0" />
+      <Button fx:id="billButton" layoutX="257.0" layoutY="439.0" mnemonicParsing="false" onAction="#finishBill" text="Emite factura" />
+      <Button layoutX="19.0" layoutY="439.0" mnemonicParsing="false" onAction="#viewBasket" text="   Vezi cosul &#10;de cuparaturi" />
+      <Label layoutX="241.0" layoutY="14.0" text="Meniu principal">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

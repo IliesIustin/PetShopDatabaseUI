@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="509.0" prefWidth="742.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ComplexQueryController">
+   <children>
+      <AnchorPane fx:id="rootPane" prefHeight="477.0" prefWidth="736.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-36.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TableView fx:id="table3" blendMode="DARKEN" cache="true" layoutX="14.0" layoutY="357.0" prefHeight="56.0" prefWidth="402.0">
+               <columns>
+                  <TableColumn fx:id="month_c3" prefWidth="207.0" text="Luna" />
+                  <TableColumn fx:id="number_bills_c3" prefWidth="193.0" text="Numar facturi" />
+               </columns>
+            </TableView>
+            <TableView fx:id="table1" blendMode="DARKEN" cache="true" layoutX="14.0" layoutY="54.0" prefHeight="136.0" prefWidth="402.0">
+               <columns>
+                  <TableColumn fx:id="last_name_c1" prefWidth="134.0" text="Nume" />
+                  <TableColumn fx:id="first_name_c1" prefWidth="151.0" text="Prenume" />
+                  <TableColumn fx:id="notice_bill_c1" prefWidth="116.0" text="Aviz factura" />
+               </columns>
+            </TableView>
+            <Label layoutX="330.0" layoutY="14.0" text="Interogari complexe">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="563.0" layoutY="165.0" mnemonicParsing="false" onAction="#execQuery7" text="Rezultat" />
+            <Label layoutX="433.0" layoutY="63.0" prefHeight="17.0" prefWidth="323.0" text="Numele , prenumele si avizul de factura pentru fiecare client" />
+            <Button layoutX="564.0" layoutY="305.0" mnemonicParsing="false" onAction="#execQuery8" text="Rezultat" />
+            <Label layoutX="440.0" layoutY="204.0" text="Clinetii care au cumparat din cea mai tanara categorie de " />
+            <ComboBox fx:id="cb_animal_name" layoutX="552.0" layoutY="228.0" prefHeight="27.0" prefWidth="84.0" promptText="Animal" />
+            <Button layoutX="563.0" layoutY="462.0" mnemonicParsing="false" onAction="#execQuery10" text="Rezultat" />
+            <Label layoutX="435.0" layoutY="357.0" prefHeight="17.0" prefWidth="263.0" text="Luna unde au avut loc cele mai multe vanzari in  " />
+            <Label layoutX="455.0" layoutY="431.0" prefHeight="17.0" prefWidth="275.0" text="Producatorul ale carui accesorii au fost cele vandute" />
+            <TableView fx:id="table2" blendMode="DARKEN" cache="true" layoutX="14.0" layoutY="204.0" prefHeight="136.0" prefWidth="402.0">
+               <columns>
+                  <TableColumn fx:id="last_name_c2" prefWidth="207.0" text="Nume" />
+                  <TableColumn fx:id="first_name_c2" prefWidth="194.0" text="Prenume" />
+               </columns>
+            </TableView>
+            <TableView fx:id="table4" blendMode="DARKEN" cache="true" layoutX="14.0" layoutY="431.0" prefHeight="56.0" prefWidth="402.0">
+               <columns>
+                  <TableColumn fx:id="maker_c4" prefWidth="211.0" text="Producator" />
+                  <TableColumn fx:id="accs_sold_c4" prefWidth="189.0" text="Accesorii vandute" />
+               </columns>
+            </TableView>
+            <Button layoutX="563.0" layoutY="385.0" mnemonicParsing="false" onAction="#execQuery9" text="Rezultat" />
+            <ComboBox fx:id="cb_year" layoutX="687.0" layoutY="352.0" prefHeight="27.0" prefWidth="84.0" promptText="Anul" />
+            <Label layoutX="433.0" layoutY="80.0" prefHeight="17.0" prefWidth="323.0" text="care are facturi cu un total mai mare decat media facturilor" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="proiect_BD:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/proiect_BD_jar</output-path>
+    <root id="archive" name="proiect_BD.jar">
+      <element id="module-output" name="proiect_BD" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../com.mysql.jdbc_5.1.5.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

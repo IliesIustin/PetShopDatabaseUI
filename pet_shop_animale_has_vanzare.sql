@@ -1,0 +1,12 @@
+insert into pet_shop.animale_has_vanzare (id_animal, id_vanzare, numar_animale) values (1026, 10799, 1);
+insert into pet_shop.animale_has_vanzare (id_animal, id_vanzare, numar_animale) values (2339, 10865, 1);
+insert into pet_shop.animale_has_vanzare (id_animal, id_vanzare, numar_animale) values (4664, 1188, 1);
+insert into pet_shop.animale_has_vanzare (id_animal, id_vanzare, numar_animale) values (4664, 1371, 1);
+insert into pet_shop.animale_has_vanzare (id_animal, id_vanzare, numar_animale) values (6134, 1378, 1);
+insert into pet_shop.animale_has_vanzare (id_animal, id_vanzare, numar_animale) values (6405, 6229, 1);
+insert into pet_shop.animale_has_vanzare (id_animal, id_vanzare, numar_animale) values (6405, 10674, 1);
+insert into pet_shop.animale_has_vanzare (id_animal, id_vanzare, numar_animale) values (6410, 6693, 1);
+insert into pet_shop.animale_has_vanzare (id_animal, id_vanzare, numar_animale) values (8061, 1188, 1);
+insert into pet_shop.animale_has_vanzare (id_animal, id_vanzare, numar_animale) values (9169, 4275, 2);
+insert into pet_shop.animale_has_vanzare (id_animal, id_vanzare, numar_animale) values (9169, 8537, 1);
+insert into pet_shop.animale_has_vanzare (id_animal, id_vanzare, numar_animale) values (9571, 1188, 1);

@@ -1,0 +1,13 @@
+insert into pet_shop.animale (id_animal, nume, cod_animal, rasa, specie, sex, varsta, ani_viata, pret, stoc) values (433, 'Papagal', 'PA-223532', 'Stacojiu', 'Ara ararauna', 'F', 23, 9, 460, 3);
+insert into pet_shop.animale (id_animal, nume, cod_animal, rasa, specie, sex, varsta, ani_viata, pret, stoc) values (1026, 'Papagal', 'PA-124532', 'Stacojiu', 'Ara ararauna', 'M', 24, 9, 450, 6);
+insert into pet_shop.animale (id_animal, nume, cod_animal, rasa, specie, sex, varsta, ani_viata, pret, stoc) values (2339, 'Hammster', 'HA-207315', 'Chinezesc', 'Mesocricetus newtoni', 'F', 7, 3, 110, 4);
+insert into pet_shop.animale (id_animal, nume, cod_animal, rasa, specie, sex, varsta, ani_viata, pret, stoc) values (4664, 'Papagal', 'PA-212946', 'Kakapo', 'Strigops habroptilus', 'F', 12, 10, 245, 3);
+insert into pet_shop.animale (id_animal, nume, cod_animal, rasa, specie, sex, varsta, ani_viata, pret, stoc) values (5397, 'Porcusor de guineea', 'PG-106553', 'Abyssinian', 'Cavia porcellus', 'M', 6, 5, 140, 3);
+insert into pet_shop.animale (id_animal, nume, cod_animal, rasa, specie, sex, varsta, ani_viata, pret, stoc) values (6134, 'Peste', 'PE-203523', 'Neon', 'Hemigrammus erythrozonus', 'F', 3, 3, 45, 4);
+insert into pet_shop.animale (id_animal, nume, cod_animal, rasa, specie, sex, varsta, ani_viata, pret, stoc) values (6405, 'Hammster', 'HA-106432', 'Sirian', 'Cricetinae', 'M', 6, 5, 120, 5);
+insert into pet_shop.animale (id_animal, nume, cod_animal, rasa, specie, sex, varsta, ani_viata, pret, stoc) values (6410, 'Papagal', 'PA-112946', 'Kakapo', 'Strigops habroptilus', 'M', 13, 10, 250, 7);
+insert into pet_shop.animale (id_animal, nume, cod_animal, rasa, specie, sex, varsta, ani_viata, pret, stoc) values (8061, 'Peste', 'PE-202435', 'Arlechin', 'Cypriniformes', 'F', 2, 3, 33, 5);
+insert into pet_shop.animale (id_animal, nume, cod_animal, rasa, specie, sex, varsta, ani_viata, pret, stoc) values (8770, 'Papagal', 'PA-213532', 'Nimfa', 'Nymphicus hollandicus', 'F', 13, 9, 110, 4);
+insert into pet_shop.animale (id_animal, nume, cod_animal, rasa, specie, sex, varsta, ani_viata, pret, stoc) values (9169, 'Papagal', 'PA-114532', 'Nimfa', 'Nymphicus hollandicus', 'M', 14, 10, 100, 7);
+insert into pet_shop.animale (id_animal, nume, cod_animal, rasa, specie, sex, varsta, ani_viata, pret, stoc) values (9399, 'Peste', 'PE-203256', 'Oscar', 'Astronotus ocellatus', 'F', 3, 2, 35, 4);
+insert into pet_shop.animale (id_animal, nume, cod_animal, rasa, specie, sex, varsta, ani_viata, pret, stoc) values (9571, 'Soarece', 'SO-211643', 'Pigmeu nordic', 'Mus musculus', 'F', 11, 4, 87, 6);

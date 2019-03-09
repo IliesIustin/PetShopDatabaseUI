@@ -1,0 +1,11 @@
+insert into pet_shop.vanzare_animale (id_vanzare_animal, numar_total_animale, taxa_vanzare, cost_animale) values (5, 2, 20, 15);
+insert into pet_shop.vanzare_animale (id_vanzare_animal, numar_total_animale, taxa_vanzare, cost_animale) values (1188, 3, 30, 365);
+insert into pet_shop.vanzare_animale (id_vanzare_animal, numar_total_animale, taxa_vanzare, cost_animale) values (1371, 1, 10, 245);
+insert into pet_shop.vanzare_animale (id_vanzare_animal, numar_total_animale, taxa_vanzare, cost_animale) values (1378, 1, 10, 45);
+insert into pet_shop.vanzare_animale (id_vanzare_animal, numar_total_animale, taxa_vanzare, cost_animale) values (4275, 2, 20, 200);
+insert into pet_shop.vanzare_animale (id_vanzare_animal, numar_total_animale, taxa_vanzare, cost_animale) values (6229, 1, 10, 120);
+insert into pet_shop.vanzare_animale (id_vanzare_animal, numar_total_animale, taxa_vanzare, cost_animale) values (6693, 1, 10, 250);
+insert into pet_shop.vanzare_animale (id_vanzare_animal, numar_total_animale, taxa_vanzare, cost_animale) values (8537, 1, 10, 100);
+insert into pet_shop.vanzare_animale (id_vanzare_animal, numar_total_animale, taxa_vanzare, cost_animale) values (10674, 1, 10, 120);
+insert into pet_shop.vanzare_animale (id_vanzare_animal, numar_total_animale, taxa_vanzare, cost_animale) values (10799, 1, 10, 450);
+insert into pet_shop.vanzare_animale (id_vanzare_animal, numar_total_animale, taxa_vanzare, cost_animale) values (10865, 1, 10, 110);
